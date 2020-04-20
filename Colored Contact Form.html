@@ -1,0 +1,262 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Form</title>
+   <style>
+     *{
+		margin:0;
+		box-sizing:border-box; 
+		 }
+		 
+		 body{background-color:rgb(137,43,227);}
+		 
+   .container{
+	   width:80%;
+	   background-color:white;
+	   margin-left:auto;
+	   margin-right:auto;
+	   margin-top:30px;
+	   margin-bottom:30px;
+	   padding-left:40px;
+	   padding-right:40px;
+	    padding-top:50px;
+	   
+	   }
+       .left{
+		width:48%;
+		height:210px;
+		  margin-bottom:5px; 
+		   }
+	
+	   .right{
+		width:48%;
+		height:210px;
+		   margin-left:20px;
+		   margin-bottom:5px; 
+		   
+		   }
+		   
+		   .left:after{
+			  content:" ";
+			  clear:both;
+			  display:block;
+			  visibility:hidden; 
+			   }
+		   
+		   .right:after{
+			  content:" ";
+			  clear:both;
+			  display:block;
+			  visibility:hidden; 
+			   }
+		   
+      .leftF{
+		  float:left;
+		  
+		  }
+   
+        .main{
+		width:100%;
+		height:100px;
+		padding-top:20px;	
+			}
+			
+	     .spanN{
+		   border:2px solid #999;
+				 padding-left:15px;
+		  padding-top:15px;
+		  padding-bottom:15px;
+		  padding-right:15px; 
+		  	 font-size:18px;
+			 color:#666;
+			 
+			 }
+			 .txtN{
+				width:69%;
+				height:52px; 
+				 outline:none;
+				 border:none;
+				 color:#666;
+				 border:2px solid #999;
+				 font-size:20px;
+				 padding-left:10px;
+				 }
+	    
+			 .txtE{
+				width:69%;
+				height:52px; 
+				 color:#666;
+				 outline:none;
+				 border:none;
+				 border:2px solid #999;
+				 font-size:20px;
+				 padding-left:10px;
+				 }
+	    
+	     .spanE{
+		   border:2px solid #999;
+		padding-left:17px;
+		  padding-top:15px;
+		  padding-bottom:15px;
+		  padding-right:60px; 
+		  	 font-size:18px;
+			 color:#666;
+			 
+			 }
+	 
+.txtP{color:#666;
+				width:69%;
+				height:52px; 
+				 outline:none;
+				 border:none;
+				 border:2px solid #999;
+				 font-size:20px;
+				 padding-left:10px;
+				 }
+	    
+	     .spanP{
+			 
+		   border:2px solid #999;
+				 padding-left:17px;
+		  padding-top:15px;
+		  padding-bottom:15px;
+		  padding-right:48px; 
+		  	 font-size:18px;
+			 color:#666;
+			 		 }
+	     .spanM{
+		   border:2px solid #999;
+				 padding-left:15px;
+		  padding-top:15px;
+		  padding-bottom:15px;
+		  padding-right:35px; 
+		  	 font-size:18px;
+			 color:#666;
+			 
+			 }
+			 .txtM{
+				width:82%;
+				height:52px; 
+				 outline:none;
+				 border:none;
+				 border:2px solid #999;
+				 font-size:20px;
+				 padding-left:10px;
+				 color:#666;
+				 
+				 }
+	 .btn{
+		width:143px;
+		height:50px;
+		margin-top:40px;
+		margin-bottom:50px;
+		outline:none;
+		 font-size:20px;
+		 font-family:"Times New Roman", Times, serif;
+		 border:none;
+		 background-color:rgb(137,43,227);
+		 color:white;
+		 
+		 }
+	  .btn:hover{
+		   cursor:pointer;
+		   background-color:#60F; 
+		  }
+	 
+	 
+	 
+		.heading
+   { text-align:center;
+   font-size:48px;
+   color:#FFF;
+   margin-top:50px;
+   font-family:Century;
+   }
+   
+	    .copyright
+	 { 
+	 font-size:20px;
+	 color:#FFF;
+	 margin-bottom:50px;
+	 
+	 }
+	 .copy
+	 {text-align:center;
+	 width:40%;
+	 margin-left:auto;
+	 margin-right:auto;
+	 margin-bottom:50px; }
+
+
+	 
+	 
+
+   </style>
+</head>
+<body>
+
+
+   <h1 class="heading"> COLORED CONTACT FORM</h1>
+
+
+
+
+   <div class="container">
+   
+      <form>
+         <div class="left leftF">
+          <div class="main">
+          <span class="spanN"> FIRSTNAME </span>
+          <input type="text" class="txtN" placeholder="Name"/>
+          </div>
+          <div class="main">
+          <span class="spanE"> EMAIL </span>
+          <input type="text" class="txtE" placeholder="Name"/>
+         
+          </div>
+          </div>
+          
+          
+         <div class="right leftF">
+          <div class="main">
+          <span class="spanN"> LASTNAME </span>
+          <input type="text" class="txtN" placeholder="Name"/>
+          </div>
+          <div class="main">
+          <span class="spanP"> PHONE </span>
+          <input type="text" class="txtP" placeholder="Phone"/>
+          </div>
+          </div>
+          
+          <span class="spanM"> MESSAGE </span>
+          <input type="text" class="txtM" placeholder="Message"/>
+         <input type="submit" value="SEND" class="btn"/>
+          
+      
+      
+      
+      </form>
+   
+   
+   
+   
+   
+   
+   
+   </div>
+
+
+     <div class="copy">
+   <span class="copyright"> &copy; Copyright(2020)Colored Contact Form. All rights reversed. </span>
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
